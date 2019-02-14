@@ -12,24 +12,24 @@ Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Tasks
-1. Define and fix bugs
+1. Tests
+    Jest is installed and to run tests use: `yarn test`
+    * write test for one component
+    * write test for one container
+2. Define and fix bugs
     * add 2 items with the same text and check one of them
     * add 5 items (2 completed, 3 not completed) and play with the filter
 
-2. Implement feature
+3. Implement feature
     * clear all completed tasks from list
 
-3. Routing
+4. Routing
 
     Module `react-router-dom` is already added in package.json
     * completed task should be shown with the path `/completed`
     * active task should be show with the path `/active`
 
-4. Tests
 
-    Jest is installed and to run tests use: `yarn test`
-    * write test for one component
-    * write test for one container
 
 5. Async call
     * implement autocomplete on focus input to add a task
